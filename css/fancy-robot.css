@@ -1,38 +1,140 @@
 .robot-container {
+    height: 600px;
+    width: 600px;
+    border: 5px solid;
+    top: 40px;
+    margin: auto;
+    position: relative;
+
 }
 
 .robot-face-shape {
+
+    height: 400px;
+    width: 400px;
+    border: 4px red solid;
+    border-radius: 5%;
+    background-color: orangered;
+    position: relative;
+    top: 100px;
+    left: 100px;
 }
 
 .robot-eye-left {
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 90px;
+
 }
 
 .robot-eye-right {
+    height: 50px;
+    width: 50px;
+    border: 2px solid;
+    background-color: blue;
+    border-radius: 10%;
+    position: relative;
+    top: 50px;
+    left: 260px;
 }
 
 .robot-ear-left {
+    height: 100px;
+    width: 50px;
+    border: 5px solid pink;
+    background-color: red;
+    border-radius: 30%;
+    position: relative;
+    top: -170px;
+    left: 40px;
 }
 
 .robot-ear-right {
+    height: 100px;
+    width: 50px;
+    border: 5px solid pink;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: -275px;
+    left: 505px;
 }
 
 .robot-nose {
-}
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom: 50px solid purple;
+        position: relative;
+        top: 70px;
+        left: 170px;
+      }
+
 
 .robot-teeth {
+    height: 50px;
+    width: 200px;
+    border: 2px solid;
+    background-color: maroon;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
 .robot-tooth {
+    height: 20px;
+    width: 20px;
+    border: 2px white solid;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .robot-hair-style {
+    height: 25px;
+    width: 100px;
+    border: 2px solid;
+    background-color: black;
+    position: relative;
+    top: -565px;
+    left: 250px;
 }
 
 .robot-hair-one {
+    top: -700px;
+    left: 200px;
+    height: 15px;
+    width: 100px;
+    border: 2px solid;
+    background-color: green; 
 }
 
 .robot-hair-two {
+    top: -700px;
+    left: 200px;
+    height: 10px;
+    width: 100px;
+    border: 2px solid;
+    background-color: yellow;
 }
 
 .robot-hair-three {
+    top: -700px;
+    left: 200px;
+    height: 8px;
+    width: 100px;
+    border: 2px solid;
+    background-color: orange;
 }
