@@ -14,10 +14,14 @@
     width: 400px;
     border: 4px red solid;
     border-radius: 5%;
-    background-color: orangered;
+    background-image: url('/assets/JShine.jpg'); 
     position: relative;
     top: 100px;
     left: 100px;
+}
+
+.robot-face-shape, .gradient-background {
+
 }
 
 .robot-eye-left {
@@ -50,6 +54,7 @@
     background-color: red;
     border-radius: 30%;
     position: relative;
+    opacity: 50%;
     top: -170px;
     left: 40px;
 }
@@ -68,22 +73,24 @@
 .robot-nose {
         width: 0;
         height: 0;
+        border-radius: 20%;
         border-left: 30px solid transparent;
         border-right: 30px solid transparent;
-        border-bottom: 50px solid purple;
+        border-bottom: 50px solid transparent;
+        background-image: url('/assets/573-200x300.jpg');
         position: relative;
         top: 70px;
-        left: 170px;
+        left: 170px;;
       }
 
 
 .robot-teeth {
     height: 50px;
-    width: 200px;
+    width: 12rem;
     border: 2px solid;
     background-color: maroon;
-    position: relative;
-    top: 150px;
+    position: absolute;
+    top: 275px;
     left: 100px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -94,7 +101,7 @@
 
 .robot-tooth {
     height: 20px;
-    width: 20px;
+    width: 2rem;
     border: 2px white solid;
     background-color: black;
     border-radius: 10px;
